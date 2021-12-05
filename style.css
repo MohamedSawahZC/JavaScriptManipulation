@@ -1,0 +1,99 @@
+.head {
+    height: 70rem;
+    width: 50%;
+    margin: auto;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: bold;
+    color: crimson;
+    background-color: rgb(228, 228, 228);
+    border-radius: 5px;
+}
+
+.add,
+.search {
+    height: 1.8rem;
+    width: 40%;
+    border-radius: 4px;
+}
+
+.add:focus {
+    outline: solid 1px red;
+}
+
+.addBtn,
+.searchBtn {
+    border-radius: 4px;
+    color: cyan;
+    background-color: black;
+    text-align: center;
+    width: 5rem;
+    height: 2rem;
+    border: none;
+    font-weight: bold;
+}
+
+.addBtn:hover,
+.searchBtn:hover {
+    background-color: crimson;
+    color: white;
+}
+
+.pageData {
+    visibility: visible;
+    margin: 4rem;
+    padding: auto;
+    border: 1px solid black;
+}
+
+.parentNode {
+    position: relative;
+    display: inline-block;
+    margin: 1rem auto;
+    height: 6rem;
+    width: 70%;
+    border: none;
+    border-radius: 6px;
+    color: crimson;
+    background-color: whitesmoke;
+    transition: 0.4s;
+}
+
+.parentNode:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.textData {
+    position: absolute;
+    margin: auto 0;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 20px;
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.delBtn {
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    width: 6rem;
+    height: 3rem;
+    background-color: black;
+}
+
+.delBtn:hover {
+    background-color: crimson;
+    color: white;
+}
+
+label {
+    font-size: 1.2rem;
+}
